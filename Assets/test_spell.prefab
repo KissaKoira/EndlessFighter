@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 8850484331387202434}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: c8ae2cbb23c99f440a26f770ac0e9536, type: 3}
-  m_Color: {r: 1, g: 0.4146728, b: 0, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.9964247, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -95,12 +95,12 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.16
+  m_Radius: 0.5
 --- !u!50 &7675980266266481589
 Rigidbody2D:
   serializedVersion: 4
@@ -162,7 +162,7 @@ TrailRenderer:
   m_SortingLayerID: 1411471001
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Time: 1
+  m_Time: 0.2
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -171,7 +171,7 @@ TrailRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.30952448
+        value: 0.19842136
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -179,7 +179,16 @@ TrailRenderer:
         inWeight: 0.33333334
         outWeight: 0.33333334
       - serializedVersion: 3
-        time: 1
+        time: 0.058022857
+        value: 0.18243924
+        inSlope: -0.2759662
+        outSlope: -0.2759662
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.8020477
         value: 0
         inSlope: 0
         outSlope: 0
@@ -192,8 +201,8 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0.4156863, b: 0, a: 1}
-      key1: {r: 1, g: 0.4156863, b: 0, a: 0}
+      key0: {r: 1, g: 0, b: 0.99607843, a: 1}
+      key1: {r: 1, g: 0, b: 0.99607843, a: 0}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -240,3 +249,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7f554540a0d5e234f92770a2ab0c79e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damage: 0

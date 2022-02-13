@@ -5,13 +5,17 @@ using UnityEngine;
 public class Spell
 {
     public string name;
-    public int speed;
+    public float damage;
+    public float speed;
     public float cooldown;
+    public float activeCD;
 
-    public Spell(string aName, int aSpeed) 
+    public Spell(string aName, float aDamage, float aSpeed, float aCooldown) 
     {
         name = aName;
+        damage = aDamage;
         speed = aSpeed;
-        cooldown = 0;
+        cooldown = aCooldown;
+        activeCD = cooldown;
     }
 }

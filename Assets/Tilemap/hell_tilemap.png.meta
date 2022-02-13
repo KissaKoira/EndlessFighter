@@ -1,64 +1,7 @@
 fileFormatVersion: 2
 guid: 5ad15cb2ba439a54e80f549ad510c1bf
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -8038582209299434504
-    second: hell_tilemap_0
-  - first:
-      213: 91911461679286007
-    second: hell_tilemap_1
-  - first:
-      213: 6257325720847094739
-    second: hell_tilemap_2
-  - first:
-      213: 5238777895279797551
-    second: hell_tilemap_3
-  - first:
-      213: 2588204048350097970
-    second: hell_tilemap_4
-  - first:
-      213: -3075248353517751296
-    second: hell_tilemap_5
-  - first:
-      213: -8866442789468715342
-    second: hell_tilemap_6
-  - first:
-      213: -3415117785772342602
-    second: hell_tilemap_7
-  - first:
-      213: -5277764980455870919
-    second: hell_tilemap_8
-  - first:
-      213: -8608162363924457688
-    second: hell_tilemap_0
-  - first:
-      213: 2823790501839786286
-    second: hell_tilemap_1
-  - first:
-      213: -7945850087496893077
-    second: hell_tilemap_2
-  - first:
-      213: -8019099435534784056
-    second: hell_tilemap_3
-  - first:
-      213: -244181001751139715
-    second: hell_tilemap_4
-  - first:
-      213: -4805162896781872821
-    second: hell_tilemap_5
-  - first:
-      213: 237635982952562852
-    second: hell_tilemap_6
-  - first:
-      213: -7185972734838913684
-    second: hell_tilemap_7
-  - first:
-      213: 2418564695410538532
-    second: hell_tilemap_8
-  - first:
-      213: -869562247191086792
-    second: hell_tilemap_9
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -88,7 +31,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -97,12 +40,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -128,231 +71,9 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Standalone
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: hell_tilemap_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 968
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 827556120f9a98880800000000000000
-      internalID: -8608162363924457688
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hell_tilemap_1
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 968
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e215846108e103720800000000000000
-      internalID: 2823790501839786286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hell_tilemap_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 968
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b6dbd30c17baab190800000000000000
-      internalID: -7945850087496893077
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hell_tilemap_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 936
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8c9e966ec8f66b090800000000000000
-      internalID: -8019099435534784056
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hell_tilemap_4
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 936
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d7a69b13cae7c9cf0800000000000000
-      internalID: -244181001751139715
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hell_tilemap_5
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 936
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b41fd61edc1a05db0800000000000000
-      internalID: -4805162896781872821
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hell_tilemap_6
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 936
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a00dbddaa04c4300800000000000000
-      internalID: 237635982952562852
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hell_tilemap_7
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 904
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c65c84ededb464c90800000000000000
-      internalID: -7185972734838913684
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hell_tilemap_8
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 904
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 428fe30c6c7709120800000000000000
-      internalID: 2418564695410538532
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: hell_tilemap_9
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 904
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 839b51a4eb1bee3f0800000000000000
-      internalID: -869562247191086792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
